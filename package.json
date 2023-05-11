@@ -3,6 +3,11 @@
   "displayName": "copy-to-gpt-chat",
   "description": "Copies the content of codes to pass as context to artificial intelligence.",
   "version": "0.0.1",
+  "publisher": "guilhermelim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermelim/copy-to-gpt-chat.git"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
