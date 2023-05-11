@@ -1,4 +1,4 @@
-# Copy to GPT Chat
+# Copy to Chat GPT
 
 A Visual Studio Code extension that copies code content to the clipboard to be used as context in artificial intelligence platforms.
 

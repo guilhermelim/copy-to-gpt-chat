@@ -1,6 +1,6 @@
 {
-  "name": "copy-to-gpt-chat",
-  "displayName": "copy-to-gpt-chat",
+  "name": "copy-to-chat-gpt",
+  "displayName": "Copy to ChatGPT",
   "description": "Copies the content of codes to pass as context to artificial intelligence.",
   "version": "0.0.1",
   "publisher": "genap",
