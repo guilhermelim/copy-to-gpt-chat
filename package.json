@@ -2,7 +2,8 @@
   "name": "copy-to-chat-gpt",
   "displayName": "Copy to ChatGPT",
   "description": "Copies the content of codes to pass as context to artificial intelligence.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "icon.png",
   "publisher": "genap",
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
-    "icon": "./src/icon/icon.png",
     "commands": [
       {
         "command": "extension.copyToGptChat",
