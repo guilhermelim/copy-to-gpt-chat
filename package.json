@@ -15,7 +15,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.copyToGptChat"
+    "onCommand:extension.copyToGptChat",
+    "onCommand:extension.copyDirectoryToGptChat"
   ],
   "main": "./dist/extension.js",
   "contributes": {
