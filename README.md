@@ -34,3 +34,9 @@ If you want to contribute to this extension, please fork the [GitHub repository]
 ## License
 
 This extension is licensed under the [MIT License](LICENSE).
+
+## How to Publish a New Version
+
+1. Update the version number in `package.json` and commit the changes.
+2. Run the `vsce package` command to create a `.vsix` file for the new version.
+3. Run the `vsce publish` command to publish the new version to the Visual Studio Code Marketplace.
