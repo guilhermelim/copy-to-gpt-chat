@@ -14,12 +14,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:extension.copyToGptChat"
-  ],
   "main": "./dist/extension.js",
   "contributes": {
-    "icon": "./src/icon/logo.png",
+    "icon": "./src/icon/icon.png",
     "commands": [
       {
         "command": "extension.copyToGptChat",
