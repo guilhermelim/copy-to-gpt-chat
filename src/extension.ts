@@ -75,7 +75,31 @@ export function activate(context: vscode.ExtensionContext) {
     }
   );
 
-  context.subscriptions.push(disposableFile, disposableDirectory);
+  let disposablePrompt = vscode.commands.registerCommand(
+    "extension.promptToGptChat",
+    async () => {
+      try {
+        console.log("Comando Iniciado!"); // For debugging purposes
+        let filePath = path.resolve(
+          __dirname,
+          "./prompt/promptCopyToGptChat.md"
+        );
+        console.log("Path do arquivo: ", filePath);
+        let fileBuffer = await fs.promises.readFile(filePath);
+        let toCopy = new TextDecoder("utf-8").decode(fileBuffer);
+        console.log("Content to be copied:", toCopy); // For debugging purposes
+        await vscode.env.clipboard.writeText(toCopy);
+      } catch (error) {
+        console.error("An error occurred:", error);
+      }
+    }
+  );
+
+  context.subscriptions.push(
+    disposableFile,
+    disposableDirectory,
+    disposablePrompt
+  );
 }
 
 export function deactivate() {}
