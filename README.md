@@ -2,6 +2,17 @@
 
 A Visual Studio Code extension that copies code content to the clipboard to be used as context in artificial intelligence platforms.
 
+## How to use
+
+Once the extension is installed, you can right-click on either a directory or a file and select one of the following options:
+
+- Copy to GPT Chat
+- Copy Directory to GPT Chat
+- Prompt to GPT Chat
+
+The `Prompt to GPT Chat` option provides the initial contextualization text to the prompt, which is highly recommended when opening new chats. 
+The other two options put the code in a organized and comprehensive format for the AI. You can place it immediately after the initial text or use it independently.
+
 ## Features
 
 - Copy the content of a single file or multiple files to the clipboard using a specific format
